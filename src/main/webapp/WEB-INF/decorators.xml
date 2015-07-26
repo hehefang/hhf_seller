@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 默认目录 -->
+<decorators defaultdir="/WEB-INF/views/sitemesh/">
+	<decorator name="apply" page="decoratorApply.jsp">
+		<pattern>/apply/*</pattern>
+	</decorator>	
+	<decorator name="default" page="decorator.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
