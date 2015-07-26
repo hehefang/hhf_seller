@@ -78,16 +78,6 @@
 								<div class="checkHint" id="mobile_msg"><div class="hintBox"><span>请输入11位手机号码（支持中国移动、联通、 电信的手机号码）</span></div></div>
 							</dd>
 						</dl>
-						<dl class="form-item item-auth">
-							<dt class="item-label"><label><em>*</em>验证码：</label></dt>
-							<dd class="item-cont">
-								<a href="#" class="btn btn-def disabled"  id="btnSms">获取短信验证码</a>
-								<!--<a href="#" class="btn btn-def disabled">59秒后可重新获取</a>-->
-								<input type="text" class="txt lg" id="validate"
-				name="validate" autocomplete="off" maxlength="6"/>							
-								<div class="checkHint" id="validate_msg"><div class="hintBox"><span>点击获取手机短信验证码， 不区分大小写</span></div></div>
-							</dd>
-						</dl>
 						<dl class="form-item item-agree">
 							<dt class="item-label"></dt>
 							<dd class="item-cont">
